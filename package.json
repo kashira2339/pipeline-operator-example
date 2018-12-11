@@ -1,0 +1,29 @@
+{
+  "name": "pipeline-operator-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kashira2339/pipeline-operator-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashira2339/pipeline-operator-example/issues"
+  },
+  "homepage": "https://github.com/kashira2339/pipeline-operator-example#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "json5": "^2.1.0"
+  }
+}
